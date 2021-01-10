@@ -21,14 +21,12 @@ This is an API backend application that can be used to manage personal notes in 
 * Get all notes that are archieved
 
 ## Technologies
-Built with 
-
-**Backend**
+Built with **Backend**
 1.  **node.js/Express** [version 12.16.1]
 
     Express is one of the most popular web frameworks for node.js. It is built on top of node.js http module, and adds support for routing, middleware, view system etc. It is very simple and minimal, unlike other frameworks that try do way to much, thereby reducing the flexibility for developers to have their own design choices.
 
-Alternatives:
+    Alternatives:
  * **Asp .NET**
     It's open source server-side web application framework
 * **Spring Boot**
@@ -40,14 +38,15 @@ Alternatives:
     It’s easy to setup and watchmode is amazing
 * **Superset**
 
-Alternatives:
+    Alternatives:
 
 * **JMeter** 
 
-JMeter is an open-source tool. It is created to do load testing but is widely used for functional API testing.
+    JMeter is an open-source tool. It is created to do load testing but is widely used for functional API testing.
+
 * **Mocha**
 
-javaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun
+    javaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun
 
 
 ## Installation ##
