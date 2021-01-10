@@ -23,32 +23,25 @@ This is an API backend application that can be used to manage personal notes in 
 This applications depend on MySQL as its database. I have setup a local database to test the API routes.
 
 ## Technologies
-Built with **Backend**
-1.  **node.js/Express** [version 12.16.1]
+**Backend** built with
+
+**node.js/Express** [version 12.16.1]
 
     Express is one of the most popular web frameworks for node.js. It is built on top of node.js http module, and adds support for routing, middleware, view system etc. It is very simple and minimal, unlike other frameworks that try do way to much, thereby reducing the flexibility for developers to have their own design choices.
 
-    Alternatives:
- * **Asp .NET**
-    It's open source server-side web application framework
-* **Spring Boot**
-    is an open-source application framework and the Java platform’s inversion of control container. Java applications can utilize the core features of this framework.
+Alternatives:
+ *  **Asp .NET**: It's open source server-side web  application   framework
+*   **Spring Boot**: is an open-source application framework and the Java platform’s inversion of control container. Java applications can utilize the core features of this framework.
 
 **API Testing**
-* **Jest** 
-    
-    It’s easy to setup and watchmode is amazing
+* **Jest** : It’s easy to setup and watchmode is amazing
 * **Superset**
 
-    Alternatives:
+Alternatives:
 
-* **JMeter** 
+* **JMeter** JMeter is an open-source tool. It is created to do load testing but is widely used for functional API testing.
 
-    JMeter is an open-source tool. It is created to do load testing but is widely used for functional API testing.
-
-* **Mocha**
-
-    javaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun
+* **Mocha**: javaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun
 
 
 ## Installation ##
