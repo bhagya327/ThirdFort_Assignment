@@ -5,7 +5,7 @@
 2. [Technologies](#Technologies)
 3. [Installation](#installation)
 4. [Instruction to the ux team](#UI/UX)
-5. [Improvements](Improvements)
+5. [Improvements](#Improvements)
 
 
 
@@ -74,7 +74,7 @@ Built with **Backend**
     * npm test 
 
 
-## Instruction too the UX Team
+## Instruction to the UX Team
 ## API Methods ##
 
 * **notes/addnew** : Adding a new note record to the mynotes DB.
