@@ -11,7 +11,7 @@ describe("Testing the Notes API", () => {
     });
     
     // Testing adding n new note
-	it("tests the post new movies endpoint and returns as success message", async () => {
+	it("tests the post new record endpoint and returns as success message", async () => {
 
 		const response = await supertest(app).post('/notes/addnew').send({
 			NoteTopic: 'test topic',
@@ -25,21 +25,21 @@ describe("Testing the Notes API", () => {
     });
 
     //Testing endpoint of getting a note by id
-    it("Testing getting a noye by id end point", async () => {
+    it("Testing the end point of getting a note by id", async () => {
 		const response = await supertest(app).get('/notes/:id');
 		expect(response.status).toBe(200);
 		expect(response.body.status).toBe(true);
     });
 
     //Testing endpoint of deleting a note by id
-    it("Testing getting a note by id end point", async () => {
+    it("Testing the end point of deleting a note by id", async () => {
 		const response = await supertest(app).delete('/notes/delete/:id');
 		expect(response.status).toBe(200);
 		expect(response.body.status).toBe(true);
     });
 
     //Testing endpoint of updating a note by id
-    it("tests the update point", async () => {
+    it("tests the update end point", async () => {
 
 		const response = await supertest(app).put('/notes/update/:id').send({
 			NoteTopic: 'test topic',
@@ -53,7 +53,7 @@ describe("Testing the Notes API", () => {
     });
 
     //Testing archiving a note
-    it("tests the update point", async () => {
+    it("tests the end point pf archieving a note", async () => {
 
 		const response = await supertest(app).put('/notes/archive').send({
             NoteId: 'test id',
