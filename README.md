@@ -4,7 +4,7 @@
 1. [General Info](#GeneralInfo)
 2. [Technologies](#Technologies)
 3. [Installation](#installation)
-4. [Instruction to the ux team](#UI/UX)
+4. [Instruction to the UX Team](#UI/UX)
 5. [Improvements](#Improvements)
 
 
