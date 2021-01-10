@@ -125,6 +125,8 @@ CREATE TABLE mynotes (
 
 * we can add large note Support
 
+* we can expand this to be handles in a multi-user environment
+
 * authenicate a particular user before getting access to the notes
 * we can modify queries by adding Indexes, StoredProcedures and views and Triggers 
 
