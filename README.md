@@ -20,6 +20,8 @@ This is an API backend application that can be used to manage personal notes in 
 * Unarchieved a previously archieved note
 * Get all notes that are archieved
 
+This applications depend on MySQL as its database. I have setup a local database to test the API routes.
+
 ## Technologies
 Built with **Backend**
 1.  **node.js/Express** [version 12.16.1]
@@ -59,19 +61,54 @@ Built with **Backend**
 
 3. install npm packages : 
     * **npm install**
+4. When establishing the database connection, set the           following   options:
+    
+    configure your application to use the database in db-connection file:
 
 
-4. run back end : 
+```
+    var connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    database: 'thirdfort'
+    });
+
+```
+* **host**: The hostname of the database you are connection(Default:localhost)
+
+* **user**: The MySQL user to authenticate as.
+
+* **password**: The password of that MySQL user
+
+* **database**: Name of the database to use for this connectio(Thirdfort).
+
+  
+create a local databse 
+
+
+```
+CREATE TABLE mynotes (
+    NoteId int NOT NULL AUTO_INCREMENT,
+    NoteTopic varchar(255) NOT NULL,
+    NoteContent varchar(255),
+    IsArchived Boolean,
+    PRIMARY KEY (NoteId)
+);
+
+```
+
+
+5. run back end : 
     * **npm start**
 
-5. For running Tests: 
+6. For running Tests: 
     * **npm install jest --save-dev**
 
-6. In the script section of  Package.json:
+7. In the script section of  Package.json:
     * **"test"**: "npm test"**
 
-7. **Go to terminal:**
-    * npm test 
+8. **Go to terminal:**    * npm test 
 
 
 ## Instruction to the UX Team
@@ -97,7 +134,6 @@ Built with **Backend**
 
 * authenicate a particular user before getting access to the notes
 * we can modify queries by adding Indexes, StoredProcedures and views and Triggers 
-
 
 
 
